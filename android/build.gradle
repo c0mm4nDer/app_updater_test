@@ -8,6 +8,9 @@ buildscript {
         kotlinVersion = "2.1.20"
     }
     repositories {
+        maven {
+             url 'https://maven.myket.ir'
+        }
         google()
         mavenCentral()
     }
