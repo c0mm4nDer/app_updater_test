@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
 export default HotUpdater.wrap({
   source: getUpdateSource(
-    'https://eebsegcyltuzcmgutyld.supabase.co/functions/v1/update-server',
+    'https://localhost:3000/hot-updater',
 
     {
       updateStrategy: 'appVersion', // or "fingerprint"

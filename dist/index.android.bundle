@@ -50244,7 +50244,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     }
   });
   var _default = exports.default = _$$_REQUIRE(_dependencyMap[4]).HotUpdater.wrap({
-    source: (0, _$$_REQUIRE(_dependencyMap[4]).getUpdateSource)('https://eebsegcyltuzcmgutyld.supabase.co/functions/v1/update-server', {
+    source: (0, _$$_REQUIRE(_dependencyMap[4]).getUpdateSource)('https://localhost:3000/hot-updater', {
       updateStrategy: 'appVersion' // or "fingerprint"
     }),
     fallbackComponent: function fallbackComponent(_ref) {
@@ -51359,7 +51359,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _NativeHotUpdater = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3]));
   var NIL_UUID = "00000000-0000-0000-0000-000000000000";
   var HotUpdaterConstants = exports.HotUpdaterConstants = {
-    HOT_UPDATER_BUNDLE_ID: "019a8755-232c-77c3-b5a4-daa56dafd594"
+    HOT_UPDATER_BUNDLE_ID: "019ab0eb-e879-717a-b05f-c948cd248397"
   };
   var addListener = exports.addListener = function addListener(eventName, listener) {
     var eventEmitter = new _reactNative.NativeEventEmitter(_NativeHotUpdater.default);
