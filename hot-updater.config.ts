@@ -35,7 +35,7 @@ export default defineConfig({
 
     }),
     database: standaloneRepository({
-        baseUrl: "http://localhost:3000/hot-updater",
+        baseUrl: "https://hot-updater-rn.avin-it.ir/hot-updater",
     }),
     updateStrategy: "appVersion", // or "fingerprint"
 });

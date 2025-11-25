@@ -51359,7 +51359,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _NativeHotUpdater = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3]));
   var NIL_UUID = "00000000-0000-0000-0000-000000000000";
   var HotUpdaterConstants = exports.HotUpdaterConstants = {
-    HOT_UPDATER_BUNDLE_ID: "019ab0eb-e879-717a-b05f-c948cd248397"
+    HOT_UPDATER_BUNDLE_ID: "019ab11d-6044-77d5-9bae-4e595c6e7977"
   };
   var addListener = exports.addListener = function addListener(eventName, listener) {
     var eventEmitter = new _reactNative.NativeEventEmitter(_NativeHotUpdater.default);
